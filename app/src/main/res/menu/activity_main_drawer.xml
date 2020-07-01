@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/btnhome"
+            android:icon="@drawable/imghome"
+            android:title="خانه" />
+        <item
+            android:id="@+id/btnlist"
+            android:icon="@drawable/imglstborders"
+            android:title="لیست دسته بندی محصولات" />
+        <item
+            android:id="@+id/bestSeller"
+            android:icon="@drawable/imgstar"
+            android:title="پرفروش ترین ها" />
+
+        <item
+            android:id="@+id/bestView"
+            android:icon="@drawable/imgstar"
+            android:title="پربازدید ترین ها" />
+        <item
+            android:id="@+id/newProduct"
+            android:icon="@drawable/imgstar"
+            android:title="جدیدترین ها " />
+
+    </group>
+</menu>
